@@ -30,8 +30,7 @@ public class DatabaseManager {
 	  
 	  
 	  public static void main(String[] agrs) {
-		  
-		  
+		    
 		  if(DatabaseManager.getInstance() != null) {
 			  System.out.println("Connection Pass");
 		  }else {
